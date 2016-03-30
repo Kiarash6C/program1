@@ -1,1 +1,29 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="comment_comment" id="255" x="-6" y="-23">
+    <field name="TEXT"></field>
+    <next>
+      <block type="controls_whileUntil" id="111" inline="false">
+        <field name="MODE">UNTIL</field>
+        <statement name="DO">
+          <block type="movement_forward" id="124">
+            <next>
+              <block type="movement_left" id="134">
+                <next>
+                  <block type="movement_right" id="144">
+                    <next>
+                      <block type="movement_stutter" id="165">
+                        <next>
+                          <block type="movement_stop" id="155"></block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+</xml>
