@@ -1,19 +1,19 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="comment_comment" id="255" x="-6" y="-23">
+  <block type="comment_comment" id="1" x="2" y="-18">
     <field name="TEXT"></field>
     <next>
-      <block type="controls_whileUntil" id="111" inline="false">
+      <block type="controls_whileUntil" id="2" inline="false">
         <field name="MODE">UNTIL</field>
         <statement name="DO">
-          <block type="movement_forward" id="124">
+          <block type="movement_forward" id="3">
             <next>
-              <block type="movement_left" id="134">
+              <block type="movement_left" id="4">
                 <next>
-                  <block type="movement_right" id="144">
+                  <block type="movement_right" id="5">
                     <next>
-                      <block type="movement_stutter" id="165">
+                      <block type="movement_stutter" id="6">
                         <next>
-                          <block type="movement_stop" id="155"></block>
+                          <block type="movement_stop" id="7"></block>
                         </next>
                       </block>
                     </next>
